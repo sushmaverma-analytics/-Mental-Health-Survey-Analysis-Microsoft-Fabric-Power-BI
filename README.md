@@ -1,0 +1,2 @@
+# -Mental-Health-Survey-Analysis-Microsoft-Fabric-Power-BI
+This project is an end-to-end  The project analyzes workplace mental health survey responses to understand patterns related to mental health treatment, workplace environment, employee support, gender, age, remote work, factors by follows a **Medallion Architecture (Bronze → Silver → Gold)** and implements a **Star Schema** for analytical reporting.
