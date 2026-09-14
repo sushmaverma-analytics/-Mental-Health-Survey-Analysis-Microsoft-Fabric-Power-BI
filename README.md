@@ -157,16 +157,31 @@ dim_country ─── fact_survey ─── dim_gender
 
 #99🔑 Surrogate Keys
 
-Surrogate keys were implemented in the dimension tables.
+# Surrogate keys were implemented in the dimension tables.
 
 Examples:
 
-country_key
-gender_key
-workplace_key
-support_key
-health_context_key
-These keys connect the fact table with the corresponding dimensions.
+-country_key
+-gender_key
+-workplace_key
+-support_key
+-health_context_key
+-These keys connect the fact table with the corresponding dimensions.
+
+#What-If Parameter
+
+##A What-If parameter was implemented to allow users to interactively change an analytical target.
+
+-Treatment Rate Target
+
+#The parameter allows the report user to adjust the treatment-rate target and observe the selected value dynamically.
+
+###This demonstrates the use of:
+
+-What-If Parameters
+-SELECTEDVALUE
+-Dynamic DAX
+-Interactive Power BI analysis
 
 
 
